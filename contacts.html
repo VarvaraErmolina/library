@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Библиотека</title>
+</head>
+<body>
+<div class="container">
+  <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light" style="padding-left: 10px">
+   <a class="navbar-brand" href="#">Меню</a>
+   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+     <span class="navbar-toggler-icon"></span>
+   </button>
+   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+     <div class="navbar-nav">
+       <a class="nav-item nav-link" href="index.html">Главная<span class="sr-only"></span></a>
+       <a class="nav-item nav-link" href="catalog.html">Каталог</a>
+       <a class="nav-item nav-link" href="club.html">Книжный клуб</a>
+       <a class="nav-item nav-link active" href="contacts.html">Контакты</a>
+     </div>
+   </div>
+  </nav>
+</div>
+
+<form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank" style="padding: 20px">
+  <input name="q" type="hidden" value="" id="q">
+    <fieldset style="width: 800px;">
+      <h3>Запись на встречу книжного клуба</h3>
+  <div class="form-check">
+    <label class="form-check-label" for="fio">
+      ФИО:
+    </label>
+    <input type="text" class="form-control" id="fio">
+  </div>
+  <div class="form-check">
+    <label for="email" class="form-label">
+        Адрес почты:
+    </label>
+    <input type="email" class="form-control" id="email">
+  </div>
+  <div class="form-check">
+    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+    <label class="form-check-label" for="flexRadioDefault1">
+     Уже был на встречах
+    </label>
+  </div>
+  <div class="form-check">
+    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+    <label class="form-check-label" for="flexRadioDefault2">
+      Иду впервые
+    </label>
+  </div>
+  <div class="form-check">
+    <label for="telefon" class="form-label">
+        Номер телефона:
+    </label>
+   <div class="input-group mb-3">
+    <span class="input-group-text" id="basic-addon3">+7</span>
+    <input type="number" class="form-control" id="telefon" aria-describedby="basic-addon3">
+   </div>
+  </div>
+  <div class="form-check">
+    <label for="startDate" class="form-label">Дата встречи:</label>
+    <input id="startDate" class="form-control" type="date"/>
+  </div>
+        </fieldset>
+    <button type="submit" id="btn_submit" class="btn btn-primary" style="margin: 10px;">Записаться</button>
+</form>
+
+</body>
+<script src="form.js"></script>
+</html>

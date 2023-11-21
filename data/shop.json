@@ -1,0 +1,84 @@
+[
+  {
+    "id": "1",
+    "title": "Товар 1",
+    "vendor_code": "111",
+    "description": "Описание 1",
+    "price": 100,
+    "img": "pic/o1.jpeg"
+  },
+  {
+    "id": "2",
+    "title": "Товар 2",
+    "vendor_code": "222",
+    "description": "Описание 2",
+    "price": 200,
+    "img": "pic/o2.jpeg"
+  },
+  {
+    "id": "3",
+    "title": "Товар 3",
+    "vendor_code": "333",
+    "description": "Описание 3",
+    "price": 300,
+    "img": "pic/o3.jpeg"
+  },
+  {
+    "id": "4",
+    "title": "Товар 4",
+    "vendor_code": "444e",
+    "description": "Описание 4",
+    "price": 400,
+    "img": "pic/o4.jpeg"
+  }
+  ,
+  {
+    "id": "5",
+    "title": "Товар 5",
+    "vendor_code": "4445e",
+    "description": "Описание 5",
+    "price": 400,
+    "img": "pic/o5.jpeg"
+  },
+  {
+    "id": "6",
+    "title": "Товар 6",
+    "vendor_code": "4446e",
+    "description": "Описание 6",
+    "price": 400,
+    "img": "pic/o6.jpeg"
+  },
+  {
+    "id": "7",
+    "title": "Товар 7",
+    "vendor_code": "4447e",
+    "description": "Описание 7",
+    "price": 700,
+    "img": "pic/o7.jpeg"
+  },
+  {
+    "id": "8",
+    "title": "Товар 8",
+    "vendor_code": "4448e",
+    "description": "Описание 8",
+    "price": 800,
+    "img": "pic/o8.jpeg"
+  },
+  {
+    "id": "9",
+    "title": "Товар 9",
+    "vendor_code": "444e",
+    "description": "Описание 9",
+    "price": 400,
+    "img": "pic/o9.jpeg"
+  }
+  ,
+  {
+    "id": "10",
+    "title": "Товар 10",
+    "vendor_code": "44410e",
+    "description": "Описание 10",
+    "price": 900,
+    "img": "pic/o10.jpeg"
+  }
+]
